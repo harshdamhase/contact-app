@@ -23,7 +23,7 @@ setContacts(filterContacts);
 
   return (
     <>
-      <h1 className='text-center'> Contact App</h1>
+     <h1 className='text-center'> Contact App</h1>
       <input type='text' placeholder='search' className='search-bar'
       value={searchTerm}
       onChange={(e) => {setSearchTerm(e.target.value)}}/>
